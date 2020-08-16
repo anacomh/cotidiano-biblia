@@ -182,7 +182,7 @@ a:focus {
 .content {
 	display: flex;
 	flex-direction: column;
-	padding: 0 1.5rem;
+	padding: 11.5rem;
 	width: 100vw;
 	height: calc(100vh - 13rem);
 	position: relative;
@@ -213,7 +213,7 @@ a:focus {
 }
 
 .content__credits {
-	margin: 4rem 0;
+	margin: 1rem 0!important;
 	max-width: 37rem;
 	text-align: center;
 }
@@ -337,10 +337,17 @@ a:focus {
 		margin: 0 0 0 4rem;
 	}
 	.content {
+		padding: 50% 0;
 		height: 100vh;
 		justify-content: flex-end;
 	}
 	.content__title {
 		font-size: 8.75vw;
 	}
+}
+
+.content__credits small {
+    font-size: 1.5rem;
+    line-height: 33px!important;
+    font-weight: bolder;
 }
