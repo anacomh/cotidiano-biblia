@@ -47,12 +47,12 @@ a, .logo, .main-menu a, .bio, .donwload  {
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    text-transform:uppercase;
-    color: #fff;;
+    font-size: 12px!important;
+    text-transform:uppercase!important;
+    color: #fff!important;
     border:1px solid #fff!important;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 15px!important;
 }
 
 .bio{
