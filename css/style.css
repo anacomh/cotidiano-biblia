@@ -40,6 +40,10 @@ a, .logo, .main-menu a, .bio  {
     text-align: center;
 }
 
+.bio{
+    text-align: left!important;
+}
+
 .logo, .main-menu a {
     color:#fff;
     text-transform: uppercase;
