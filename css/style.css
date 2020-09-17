@@ -365,17 +365,7 @@ section.next {
     position: relative;
     transform: none;
 	}
-    /* #home-header h1, .hero-header h1 {
-        font-family: meno-display,serif!important;
-        font-weight: 900;
-        font-style: normal;
-        font-size: 2.6em;
-        padding: 0;
-        color: #f9f0de;
-        line-height: 1.6em;
-        display: inline;
-        border-bottom: 8px solid #d49010;
-    } */
+
 
 }
 
@@ -405,14 +395,17 @@ section.next {
 	.social-links{text-align:center;}
 	.social-links a{margin:0 0.5em;}
 
-    #home-header h1, .hero-header h1 {
-        font-size: 1.5em;
-        padding: 0;
-        color: #f9f0de;
-        line-height: 1.6em;
-        display: inline;
-        border-bottom: 8px solid #d49010;
+    h2 {
+        font-size: 52px;
     }
+
+    #home-header h1, .hero-header h1 {
+        font-size: 60px;
+    }
+
+    .number {
+        text-align: left;
+    }    
 }
 
 
