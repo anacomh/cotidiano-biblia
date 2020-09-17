@@ -242,16 +242,16 @@ h2{
 /* Top Footer*/ 
 .top-footer {background: #131212;color: #f9f0de;text-align: center;padding: 2em 0;}
 .top-footer h3 {border-bottom: 2px solid orange;padding: .5em;}
-.social-btn{color: #fff;padding: 1em;font-size: 0.8em;text-align: center;display: block;width: 50%;margin: 1em auto;font-family:'Lato',sans-serif;}
-.social-btn:hover {color: #fff;}
 .facebook {background: #3b5998;}
 .twitter {background: #00aced;}
 .social-icons h4 {color: orange;font-size: 1.5em;margin-bottom: .5em;}
 .social-icons i {margin-left: 1em;}
 
 /* Copy Right Footer*/
-#main-footer {background: #1c1c1c;z-index: 99;padding: 1.5em 0;text-align: center;color: #716b6b;font-size: 16px;}
-#main-footer img {width: 100px;}
+#main-footer {background: #333;z-index: 99;padding: 1.5em 0;text-align: center;font-size: 16px;}
+#main-footer p{color: #fff;line-height: 12px;}
+#main-footer img {width: 160px;margin-bottom: 50px;
+}
 
 
 
@@ -307,7 +307,7 @@ section.nav-posts a {padding-left: 16px;}
 
 .playground1 {background-size:1000px;
     /* background-color: #00A7A3; */
-    background-image: url("http://localhost:8888/zine/lisbon-tiles/imgs/capa.jpg");
+    background-image: url("http://cotidiano.adentro.co/imgs/capa.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
