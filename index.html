@@ -1,62 +1,398 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Valeu, Fabi!</title>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="https://use.typekit.net/yxd7izj.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css" />
-    <link rel="stylesheet" type="text/css" href="css/split.css" />
-    <script>
-    document.documentElement.className = "js";
-    var supportsCssVars = function() {
-        var e,
-            t = document.createElement("style");
-        return (
-            (t.innerHTML = "root: { --tmp-var: bold; }"),
-            document.head.appendChild(t),
-            (e = !!(
-                window.CSS &&
-                window.CSS.supports &&
-                window.CSS.supports("font-weight", "var(--tmp-var)")
-            )),
-            t.parentNode.removeChild(t),
-            e
-        );
-    };
-    supportsCssVars() ||
-        alert(
-            "Please view this demo in a modern browser that supports CSS Variables."
-        );
-    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cotidiano - Série por Leonardo Blecher</title>
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:wght@300;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+
 </head>
+<body>
 
-<body class="demo-3 loading">
-    <main>
-        <div class="message">Some message for mobile (if needed).</div>
-        <div class="frame">
-            <h1 class="frame__title">Valeu, Fabi!</h1>
-        </div>
-        <div class="content">
-            <div class="fold-content" id="base-content">
-                <!-- CONTENT INSIDE HERE -->
-                <p class="content__type">
-                    <span class="content__type-special">Valeu Fabi!</span> 
-                    Você arrasa muito! Obrigada pela parceria em Pix e nos últimos projetos.
-                    Muito sucesso em sua nova trajetoria e conte com a gente sempre!
-                </p>
-                <img class="content__img" src="img/15.jpg" alt="Some image" />
+<!-- header	 -->
+<header class="main-header">
+	<div class="container">
+		<div class="row">
+			<div class="col col12 s-col12 right">
+					
+					<nav class="main-menu">
+						<a href="#sinopse">Sinopse</a>
+						<a href="#personagens">Personagens</a>
+						<a href="#tom-e-estilo">Tom e Estilo</a>
+						<a href="#universo">Universo</a>
+						<a href="#inovacao">Inovação</a>
+						<a href="#arco-da-temporada">Arco da temporada</a>
+						<a href="#referencias">Refêrencias</a>
+					</nav>
+					
+					<div class="mobile-menu">
+						<i class="fa fa-bars" id="open-menu"></i>
+					</div>
 
-                <p class="content__type">Dos teus amigos <br> da Ag2 e Prodigious <br />25/08/2020</p>
-            </div>
-            <div class="screen" id="fold-wrapper"></div>
-            <button class="btn-debug" id="btn-debug">See Planes</button>
-        </div>
-    </main>
-    <script src="./js/imagesloaded.pkgd.min.js"></script>
-    <script src="./js/split.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-overlay">
+		<div class="container">
+			<i class="fa fa-close"></i>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="playground1.html">Playground</a></li>
+					<li><a href="submit-your-tile.html">Submit your Tile</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>	
+</header>
+<!-- main section -->
+<section class="hero-header playground1" id="botequim-header">
+	<div class="hero-overlay"></div>
+	<div class="container">
+		<header>
+			<h1>cotidiano</h1>
+			<div class="row">
+				<div class="col col3 m-col2 s-col12 left"><p class="linha-fina">O dia a dia de uma equipe de jornalistas de um dos principais jornais do Brasil, em busca da verdade encoberta por trás dos fatos. Quando uma apuração incomoda pessoas poderosas, a profissão e a vida pessoal do repórter Elias entram em conflito.  </p></div>				
+				<div class="col col5 m-col5 s-col12 left"><p class="text-right bold">série por Leonardo Blecher</p></div>				
+				<div class="col col4 m-col4 s-col12 left"></div>				
+			</div>
+			
+		</header>
+	</div>
+</section>
+<section class="post-section">
+	<article class="overlay">
+<!-- ********** SINOPSE ********** -->
+			<section class="sinopse" id="sinopse">
+				<div class="container">
+					<div class="row">
+						<h2>sinopse</h2>
+						<div class="col col3 m-col3 s-col12 left"></div>				
+
+						<div class="col col9 m-col9 s-col12 left">
+							<p>Cotidiano é uma série narrativa ficcional do gênero drama, com 12 capítulos de 50 minutos por temporada. Seguindo um modelo híbrido entre o serializado e o procedural, a primeira temporada traz a trajetória de uma equipe de jornalistas de um grande jornal diário, chamado A Crônica Paulista, dramatizando os dilemas e as dificuldades de um ofício em crise, além de seus impactos na vida pessoal de cada um dos personagens.</p>
+							<p>Cada episódio se apoia em uma trama principal: a busca pela realidade encoberta por trás de um evento de grande importância midiática, livremente baseado em histórias verídicas, como uma rebelião em um presídio, um sequestro com reféns, um assassinato polêmico ou a queda de um avião. Em cada cobertura, os repórteres do jornal enfrentam forças opositoras que não querem a revelação da verdade. Como disse George Orwell, “jornalismo é publicar aquilo que alguém não quer que se publique. Todo o resto é publicidade”. </p>
+							<p>O episódio trará ainda uma trama secundária, com coberturas de menor relevância, e uma terceira trama, que pode ser usada como alívio cômico, com aspectos curiosos da atividade jornalística: a rivalidade entre editorias, a relação conflituosa com assessores de imprensa, o tédio dos plantões e pescoções, os passaralhos frequentes, entre outros. </p>
+							<p>Em cada capítulo haverá também o avanço de uma trama serializada, centrada na trajetória do protagonista Elias, que vê sua atividade profissional invadir o terreno de sua conturbada vida familiar quando incomoda pessoas poderosas em uma cobertura sobre fake news e fraudes nas eleições municipais. O preço que Elias poderá pagar por divulgar a verdade é alto, envolvendo um antigo segredo seu. Ele terá que lidar com o dilema entre fazer o que manda a profissão e preservar sua paz de espírito. </p>
+							<p>Cotidiano adapta um modelo de sucesso na televisão brasileira ao ambiente do jornalismo, profissão que está em evidência em um momento de paixões políticas e sociais exacerbadas. Permite-se ainda verticalizar no caráter, liberando-se por vezes de avançar a trama para mergulhar profundamente nos conflitos internos de personagens complexos, que não podem ser definidos por uma única característica.</p>
+							<p>Assim, enquanto diverte o público com coberturas instigantes, a série carrega no subtexto um debate acerca do que é a verdade e do peso da informação na sociedade do espetáculo em que vivemos.  </p>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- ********** PERSONAGENS ********** -->
+			<section class="personagens" id="personagens">								
+	<!-- Elias Schofer -->				
+				<div class="container">
+					<div class="row">
+						<h2>personagens</h2>					
+						<div class="col col3 m-col3 s-col12 left">
+							<span class="bio">Elias Schofer,<br>40 anos</span>
+						</div>
+										
+						<div class="col col6 m-col6 s-col12 left">
+							<p>Intempestivo, pouco sensível aos sentimentos alheios e muitas vezes cínico. Repórter habilidoso com as palavras e extremamente engenhoso para chegar à informação de que precisa. Viciado em trabalho, é o tipo de profissional que jamais espera com os colegas na área destinada à imprensa por um comunicado oficial, preferindo investigar nos bastidores. Adepto da reportagem à moda antiga, acha que gastar a sola dos sapatos é fundamental. Às vezes, pode recorrer a métodos questionáveis para conseguir um furo, mas garante que é tudo em nome do interesse público. </p>
+							<p>Embora busque a verdade todos os dias, não percebe que vive uma mentira. Se recusa a enxergar que sua vida pessoal está um caos. A distância entre ele e a esposa, a diretora teatral Maria Clara, aumenta a cada dia e a pequena Fernanda parece ser a única motivação para continuarem juntos. Para fugir dessa realidade, abusa do álcool e dos antidepressivos. </p>
+							<p>Guarda um segredo do qual prefere não se lembrar: em seus primeiros anos como repórter, em um pequeno jornal do interior de São Paulo, cometeu um erro com consequências trágicas. Uma reportagem sua denunciou um caso de pedofilia em uma creche infantil. O dono da creche cometeu suicídio após ser assediado pela população local, mas a denúncia mostrou-se falsa meses depois. Ninguém de seu convívio atual conhece essa história, mas ela segue como um fantasma na consciência de Elias, o que o leva a se afastar das pessoas ao seu redor e enxergar a vida com frieza, para não se ferir. </p>
+						</div>
+
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/elias-schofer.png" alt="">
+						</div>
+					</div>
+				</div>
+<!-- Marcela Oliveira -->
+
+				<div class="container">
+					<div class="row">
+
+						<div class="col col3 m-col3 s-col12 left">
+							<span class="bio">Marcela Oliveira,<br> 30 anos</span>
+						</div>				
+						<div class="col col6 m-col6 s-col12 left">
+							<p>Sensível, dedicada e dona de um texto impecável, Marcela teve que se esforçar muito para chegar onde está, enfrentando o racismo e o machismo que insistem em circular pelas redações do Brasil. Foi a primeira da família a obter um diploma universitário e hoje sustenta a mãe com o curto salário de repórter. Sempre sonhou com o jornalismo, para poder contar as histórias invisibilizadas das periferias, de onde ela orgulhosamente veio. </p>
+							<p>Quando seu irmão Fabiano é preso injustamente, Marcela se vê obrigada a reencontrar antigas amizades da adolescência, com as quais pensou que nunca mais teria de lidar. O drama dela a aproximará de Elias, apesar do choque entre as duas visões de mundo.</p>
+						</div>
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/marcela-oliveira.png" alt="">
+						</div>
+					</div>
+				</div>
+				<!-- demais personagens -->				
+				<div class="container">
+					<div class="row">
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/valeria-marques.png" alt="">
+							<span class="bio">Valeria Marques,<br> 35 anos</span>
+							<p>Irônica e desbocada, a editora Valéria chegou ao jornal com a missão de trazer a editoria aos tempos atuais, com foco na presença nas redes sociais. A princípio tem uma relação conflituosa com os repórteres, mas posteriormente revela-se uma grande aliada, leal à equipe de jornalistas. </p>
+						</div>				
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/jaime-goncalvez.png" alt="">
+							<span class="bio">Jaime Gonçalves,<br> 45 anos</span>
+							<p>Fotógrafo bonachão, espirituoso e sem qualquer respeito pela autoridade. Além de funcionar como alívio cômico da série, produz fotografias emblemáticas que vão estampar as reportagens da equipe. Corajoso, está sempre no lugar certo, na hora certa para o melhor registro. </p>
+						</div>		
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/domingos-camargo.png" alt="">
+							<span class="bio">Domingos Camargo, <br>60 anos</span>
+							<p>Herdeiro d'A Crônica Paulista. Assumiu recentemente a presidência do grupo, após a morte do pai, lendário barão da imprensa brasileira. Tem o objetivo de modernizar o veículo, com uma visão mais comercial do que a de seu pai, o que gera conflitos com a redação.</p>
+						</div>	
+						<div class="col col3 m-col3 s-col12 left">
+							<img src="http://localhost:8888/zine/lisbon-tiles/imgs/lirio-matias.png" alt="">
+							<span class="bio">Lírio Matias, <br>55 anos</span>
+							<p>Pastor e vereador. Homem carismático, persuasivo e misterioso, Lírio vem de origem pobre e batalha incessantemente para consolidar-se como membro da elite brasileira por meio da política partidária.  </p>
+						</div>	
+					</div>
+				</div>
+			</section>		
+<!-- ********** TOM E ESTILO ********** -->
+			<section class="sec-frase tom-e-estilo" id="tom-e-estilo">
+				<div class="container">
+					<div class="row">
+						<h2>tom e estilo</h2>
+						<div class="col col3 m-col3 s-col12 left"></div>				
+						<div class="col col9 m-col9 s-col12 left">
+							<p>Mescla do drama procedural com o thriller jornalístico. Jornada mental do protagonista avança junto ao plot de investigação, com enredo ongoing. Combina momentos de humor e violência. Combinação dos estilos naturalista e teatral.  </p>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- ********** UNIVERSO ********** -->
+			<section class="sec-frase universo" id="universo">
+				<div class="container">
+					<div class="row">
+						<h2>universo</h2>
+						<div class="col col3 m-col3 s-col12 left"></div>				
+						<div class="col col9 m-col9 s-col12 left">
+							<p>Boa parte da série se passa na redação do jornal A Crônica Paulista, um ambiente barulhento e movimentado, às vezes palco de discussões acaloradas. Mas não se limita a isso: o cenário mais amplo é a cidade de São Paulo, com ênfase nas injustiças, violências e desigualdades do cotidiano da metrópole. O bom jornalista circula em diferentes meios, habitados por todas as classes sociais. Assim, o universo aqui construído nos permite uma visão panorâmica da sociedade paulistana, culturalmente diversa e economicamente brutal. A arquitetura áspera da cidade colabora com o tom do produto. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- ********** INOVACAO ********** -->
+			<section class="sec-frase inovacao" id="inovacao">
+				<div class="container">
+					<div class="row no-divisor">
+						<h2>inovação</h2>
+						<div class="col col3 m-col3 s-col12 left"></div>				
+						<div class="col col9 m-col9 s-col12 left">
+							<p>Apresentar ao público brasileiro uma visão original sobre o exercício do jornalismo diário, um ofício que está no centro das discussões neste período de paixões políticas e sociais exacerbadas. Mesclar o modelo procedural à narrativa serializada character-driven, algo pouco habitual para o público nacional. </p>
+						</div>							
+					</div>
+				</div>
+			</section>
+<!-- ********** ARCO DA TEMPORADA ********** -->			
+			<section class="sec-frase arco-da-temporada" id="arco-da-temporada">
+				<div class="container">
+					<h2>arco da temporada</h2>
+<!-- ep 1					 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">01</p>
+								<p class="pilot">Piloto</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left piloto">
+							<p>A equipe do jornal cobre um incêndio em uma favela de São Paulo. Marcela acredita não se tratar de um acidente e tenta descobrir os responsáveis. Sem se identificar como repórter, Elias vai à Igreja do pastor e vereador Lírio Matias e é chamado a participar de um grupo de Whatsapp em apoio ao candidato a prefeito coronel Paulo Martins. Ele investiga quem está financiando as notícias falsas em prol do candidato.</p>
+						</div>							
+					</div>
+<!-- #EP2 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">02</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left dp-piloto">
+							<p>A amante de um famoso cantor sertanejo é assassinada e a equipe investiga seu possível envolvimento. Elias encontra transações milionárias da Igreja de Lírio Matias para uma agência de disparos em massa nas redes sociais. Sua esposa, Maria Cláudia, reclama da obsessão de Elias pelo caso.</p>
+						</div>							
+					</div>
+<!-- #EP3 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">03</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left dp-piloto">
+							<p>A equipe vai às ruas para cobrir manifestações de direita e de esquerda que acontecem em lugares próximos. Elias se mistura entre os conservadores para apurar sobre o esquema de fake news. O fotógrafo Jaime é atingido por uma bala de borracha e precisa ser internado. A família de Elias é ameaçada para que ele pare de investigar sobre a fraude eleitoral. 
+							</p>
+						</div>							
+					</div>
+<!-- #EP4 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">04</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left dp-piloto">
+							<p>Uma ponte desaba, deixando mortos e feridos na Marginal Tietê. A equipe investiga desvios na manutenção das pontes da cidade. Elias tenta angariar evidências mais concretas para publicar sobre a fraude nas eleições. As ameaças contra a família de Elias sobem de intensidade e a pequena Fernanda passa horas desaparecida. 
+							</p>
+						</div>							
+					</div>
+<!-- #EP5 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">05</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left dp-piloto">
+							<p>Após uma fuga de um presídio, acontecem chacinas pelas periferias. O irmão de Marcela é preso injustamente. Elias descobre que anunciantes do jornal ajudaram a financiar esquema de fake news de Paulo Martins e entra em conflito com seu patrão. Por segurança, Maria Claudia muda-se para a casa da mãe no interior, com Fernanda.							</p>
+						</div>							
+					</div>					
+<!-- #EP6 -->
+					<div class="row"">
+						<div class="col col3 m-col2 s-col12 left">
+							<div class="number">
+								<p class="numb">06</p>
+							</div>
+						</div>				
+						<div class="col col8 m-col8 s-col12 left dp-piloto">
+							<p>A equipe cobre a polêmica interrupção de gravidez de uma garota de 11 anos abusada por familiares. Elias se prepara para publicar uma grande reportagem sobre o esquema de fake news de Lírio Matias. Na cidade natal de Elias, no interior de São Paulo, assessores do vereador gravam vídeos que acusam o repórter de ter forjado provas em uma matéria sobre pedofilia 15 anos antes, e chantageiam o repórter para que ele não publique a matéria.</p>
+						</div>							
+					</div>					
+<!-- #EP7 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">07</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left piloto">
+		<p>Marcela cobre a queda de um pequeno avião que transportava um juiz. Elias se afasta da apuração das fake news e passa uns dias fora do jornal, buscando se reconciliar com Maria Cláudia. Marcela tenta tirar seu irmão da prisão, pedindo ajuda a amigos da adolescência que se tornaram traficantes. 
+		</p>
+	</div>							
+</div>
+<!-- #EP8 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">08</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left dp-piloto">
+		<p>A equipe apura uma série de crimes transfóbicos no centro de São Paulo. Paulo Martins sobe ao primeiro lugar nas pesquisas de intenção de voto. Fábio, um ex-integrante da Igreja de Lírio Matias, procura Elias para passar informações que ligam a campanha de Paulo Martins a chacinas na cidade, mas Elias não quer ouví-lo. Elias se afunda em bebida e briga com Maria Cláudia. 
+		</p>
+	</div>							
+</div>
+<!-- #EP09 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">09</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left dp-piloto">
+		<p>Uma rebelião estoura na prisão enquanto Marcela visita seu irmão. Ela conversa com presos e agentes penitenciários e descobre o envolvimento da campanha de Paulo Martins na fuga de meses antes, com objetivo de criar uma sensação de insegurança na cidade. Elias volta à sua cidade natal e revive seus antigos fantasmas. 
+		</p>
+	</div>							
+</div>
+<!-- #EP10 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">10</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left dp-piloto">
+		<p>A equipe cobre o primeiro turno das eleições. Paulo Martins passa ao segundo turno das eleições municipais. Com ajuda de um advogado do crime organizado, Marcela consegue um habeas corpus para seu irmão e fica devendo um favor. Elias volta ao jornal e procura por Fábio, mas descobre que ele foi jurado de morte e está desaparecido.
+		</p>
+	</div>							
+</div>
+<!-- #EP11 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">11</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left dp-piloto">
+		<p>Reta final da campanha: Paulo Martins é alvejado por um tiro. Com a ajuda de Marcela, Elias encontra Fábio e publica uma longa reportagem sobre a ligação da Igreja de Lírio Matias em atos criminosos e difusão de notícias falsas para apoiar a eleição de Paulo Martins. A casa da mãe de Maria Cláudia é vandalizada no interior. Elias e Marcela passam a noite juntos. 
+		</p>
+	</div>							
+</div>					
+<!-- #EP12 -->
+<div class="row"">
+	<div class="col col3 m-col2 s-col12 left">
+		<div class="number">
+			<p class="numb">12</p>
+		</div>
+	</div>				
+	<div class="col col8 m-col8 s-col12 left dp-piloto">
+		<p>A equipe cobre o dia da eleição. Assessores de Lírio Martins publicam nas redes sociais os vídeos que acusam Elias de haver forjado provas em uma reportagem sobre pedofilia no começo da carreira. O repórter é perseguido por apoiadores do candidato e é afastado do jornal. Paulo Martins é eleito, sob investigação do Ministério Público de fraude na campanha. Manifestações contrárias e favoráveis tomam a cidade. 
+		</p>
+	</div>							
+</div>	
+<div class="row no-divisor">
+	<h2>segunda temporda</h2>
+	<div class="col col3 m-col3 s-col12 left"></div>				
+	<div class="col col9 m-col9 s-col12 left">
+		<p>Na segunda temporada, Elias prova sua inocência e volta ao jornal, para cobrir a conturbada prefeitura de Paulo Martins, sofrendo constantes ataques dos seguidores do político. Marcela precisa lidar com as cobranças para retribuir o favor ao crime organizado. Separado de Maria Cláudia, Elias estabelece uma relação instável com Marcela, e os dois precisam equilibrar a vida pessoal e o trabalho.  
+		</p>
+	</div>							
+</div>
+</section>	
+
+<!-- ********** referencias ********** -->
+<section class="sec-frase referencias" id="referencias">
+	<div class="container">
+		<div class="row no-divisor">
+			<h2>referências</h2>
+			
+			<div class="col col7 m-col7 s-col12 left">
+				<img src="http://localhost:8888/zine/lisbon-tiles/imgs/1.png" alt="">
+			</div>				
+			<div class="col col5 m-col5 s-col12 left">
+				<img src="http://localhost:8888/zine/lisbon-tiles/imgs/2.png" alt="">
+			</div>									
+			<div>
+				<div class="col col12 m-col12 s-col12 left img-middle">
+					<img src="http://localhost:8888/zine/lisbon-tiles/imgs/3.png" alt="">
+				</div>				
+			</div>
+			<div class="col col6 m-col6 s-col12 left">
+				<img src="http://localhost:8888/zine/lisbon-tiles/imgs/4.png" alt="">
+			</div>				
+			<div class="col col6 m-col6 s-col12 left">
+				<img src="http://localhost:8888/zine/lisbon-tiles/imgs/5.png" alt="">
+			</div>
+
+
+		</div>		
+	</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+				</div>
+			</section>
+	</article>
+</section>
+
+<!-- copyright Footer -->
+<footer id="main-footer">
+	<div class="container">
+		<img src="http://localhost:8888/zine/lisbon-tiles/imgs/adentro.png" alt="">
+		<br><br>
+		<p>Leonardo Blecher</p>
+		<p>leonardoblecher@gmail.com</p>
+		<p>11975295841</p>	
+	</div>
+</footer>
+	<script type="application/javascript" src="js/jquery3.1.1.js"></script>
+	<script type="application/javascript" src="js/script.js"></script>
 </body>
-
-</html>
+</html>	

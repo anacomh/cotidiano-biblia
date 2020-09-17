@@ -1,26 +1,16 @@
-# 3D Folded Layout
+# Lisbon Tiles Playground
 
-Demos for the tutorial on an experimental 3D layout technique for HTML elements. By Daniel Velasquez.
+Hello! I am Anah Assumpção, a creative UX/UI Designer, who loves Lisbon Tiles and like them to be attached with their history.
 
-![3D Folded Layout](https://tympanus.net/codrops/wp-content/uploads/2020/01/FoldingDOM_featured.jpg)
+Lisbon tiles Playground is a free collection of repeatable SVG background patterns based on amazing Lisbon tiles and their cool history. Its free and it will always be.
 
-[Article on Codrops](https://tympanus.net/codrops/?p=46441)
+If you love to make patterns from Lisbon tiles, please share by submiting to the playground! 
 
-[Demo](http://tympanus.net/Tutorials/FoldingDOM/)
+This website uses JavaScript and Jquery to manipulate SVG and generate a CSS code.
 
-## License
-This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
+**The site: https://anacomh.github.io/lisbon-tiles/**
 
-## Misc
-
-Follow Daniel: [Twitter](https://twitter.com/Anemolito), [Instagram](https://www.instagram.com/anemolito/), [Codepen](https://codepen.io/Anemolo/), [GitHub](https://github.com/Anemolo) 
-
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
-
-
-[© Codrops 2020](http://www.codrops.com)
-
-
+**If you like it or if it fits your project, feel free to use :)** 
 
 
 
