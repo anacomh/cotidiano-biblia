@@ -30,14 +30,29 @@ body{
 }
 
 
-a, .logo, .main-menu a, .bio  {
+a, .logo, .main-menu a, .bio, .donwload  {
     text-decoration:none;
     color:inherit;
     margin:0;
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+}
+
+.donwload {
+    text-decoration:none;
+    color:inherit;
+    margin:0;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform:uppercase;
+    color: #fff;;
+    border:1px solid #fff!important;
+    display: inline-block;
+    padding: 10px 15px;
 }
 
 .bio{
@@ -51,7 +66,7 @@ a, .logo, .main-menu a, .bio  {
 }
 
 .main-menu a{
-    padding-left: 32px;
+    padding-right: 32px;
 }
 
 a:hover {color: #d59010;}
@@ -98,7 +113,11 @@ h2{
 
 /*** MAIN NAV ***/
 .main-header {position:absolute;width:100%;top:0;left:0;z-index:99;padding:1em 0;transition:0.3s;}
-.main-header nav, .mobile-menu {text-align: right;}
+.main-header nav, .mobile-menu {
+    border:1px solid transparent;
+    display: inline-block;
+    padding: 10px 15px;
+}
 .mobile-menu {display: none;}
 .main-header .col {padding: 0;}
 .main-header a {font-size: 1em;}
@@ -396,15 +415,15 @@ section.next {
 	.social-links a{margin:0 0.5em;}
 
     h2 {
-        font-size: 52px;
+        font-size: 52px!important;
     }
 
     #home-header h1, .hero-header h1 {
-        font-size: 60px;
+        font-size: 60px!important;
     }
 
     .number {
-        text-align: left;
+        text-align: left!important;
     }    
 }
 
